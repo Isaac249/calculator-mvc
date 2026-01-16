@@ -135,7 +135,7 @@ app.MapStaticAssets();
 // So "/" goes to HomeController.Index()
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    pattern: "{controller=Calculator}/{action=Index}/{id?}")
     .WithStaticAssets();
 
 // ============================================================================
